@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyATrbuahAtcFH2vCPjZNW-KEjjW3vq-gVM",
-    authDomain: "splash-2e604.firebaseapp.com",
-    projectId: "splash-2e604",
-    storageBucket: "splash-2e604.appspot.com",
-    messagingSenderId: "823611648900",
-    appId: "1:823611648900:web:7c7d3d1d4af4dffb5dcbd1"
-};
-
+    apiKey: "AIzaSyC4D6ErGQrANUJEe3Znxtqzw99ekbDim9c",
+    authDomain: "splash-44b4f.firebaseapp.com",
+    projectId: "splash-44b4f",
+    storageBucket: "splash-44b4f.appspot.com",
+    messagingSenderId: "917332546558",
+    appId: "1:917332546558:web:d4b6666e6fe61b7cc966af"
+  };
+  
 export default firebaseConfig;
