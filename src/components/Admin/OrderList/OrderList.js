@@ -1,13 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
-import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
-import { faListAlt } from '@fortawesome/free-solid-svg-icons';
-import { faThLarge } from '@fortawesome/free-solid-svg-icons';
 import { UserContext } from '../../../App';
 import Order from '../Order/Order';
 import './OrderList.css'
+import Sidebar from '../../Customer/Sidebar/Sidebar';
 
 const OrderList = () => {
     const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -33,23 +29,7 @@ const OrderList = () => {
 
                 :
                 <div className='order-list'>
-                    <ul className='admin-ul'>
-                        <li>
-                            <h3 className='logo'>SPlASH</h3>
-                        </li>
-                        <li>
-                            <Link to='/addService' className='font'><FontAwesomeIcon className='add-icon' icon={faPlus} /> Add Service</Link>
-                        </li>
-                        <li>
-                            <Link to='/makeAdmin' className='font'><FontAwesomeIcon className='add-icon' icon={faUserPlus} /> Make Admin</Link>
-                        </li>
-                        <li>
-                            <Link to='/orderList' className='font'><FontAwesomeIcon className='add-icon' icon={faListAlt} /> Order List</Link>
-                        </li>
-                        <li>
-                            <Link to='/manageService' className='font'><FontAwesomeIcon className='add-icon' icon={faThLarge} /> Manage Services</Link>
-                        </li>
-                    </ul>
+                    <Sidebar></Sidebar>
                     <div>
                         <h4 className='font brand-color'>Order List</h4>
                         <table className='table'>

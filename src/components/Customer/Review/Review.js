@@ -1,11 +1,6 @@
 import React, { useContext } from 'react';
 import './Review.css'
 import { useForm } from "react-hook-form";
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faCartArrowDown } from '@fortawesome/free-solid-svg-icons';
-import { faThList } from '@fortawesome/free-solid-svg-icons';
-import { faCommentDots } from '@fortawesome/free-solid-svg-icons';
 import { UserContext } from '../../../App';
 import Sidebar from '../Sidebar/Sidebar';
 
@@ -32,20 +27,6 @@ const Review = () => {
     return (
         <div className='review-section'>
             <Sidebar></Sidebar>
-            {/* <ul className='customer-ul'>
-                <li>
-                    <h3 className='logo'>SPlASH</h3>
-                </li>
-                <li>
-                    <Link to='/book' className='font'><FontAwesomeIcon className='add-icon' icon={faCartArrowDown} /> Book</Link>
-                </li>
-                <li>
-                    <Link to='/bookingList' className='font'><FontAwesomeIcon className='add-icon' icon={faThList} /> Booking List</Link>
-                </li>
-                <li>
-                    <Link to='/review' className='font'><FontAwesomeIcon className='add-icon' icon={faCommentDots} /> Review</Link>
-                </li>
-            </ul> */}
             <div className='add-review'>
                 <h5 className='font'>Review</h5>
                 <p>Give us your feedback</p>

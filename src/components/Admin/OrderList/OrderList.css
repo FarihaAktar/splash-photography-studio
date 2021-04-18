@@ -3,14 +3,11 @@
 
 }
 .order-list{
-    display: grid;
-    grid-template-columns: 20%  70%;
+    display: flex;
 }
 .table{
-    /* border: 1px solid black; */
     margin-left: 20px;
-    margin-top: 20px;
-    
+    margin-top: 20px;    
 }
 
 .thead tr th{

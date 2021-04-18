@@ -15,6 +15,10 @@
     margin-left: 20px;
     text-align: center;
 }
+.status{
+    font-weight: bolder;
+    color: white;
+}
 
  /* media query */
  @media only screen and (max-width: 600px){

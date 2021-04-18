@@ -1,6 +1,5 @@
 import React from 'react';
 import './HeaderMain.css'
-import cover from '../../../images/cover.jpg';
 
 const HeaderMain = () => {
     return (

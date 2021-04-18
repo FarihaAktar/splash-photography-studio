@@ -17,7 +17,6 @@ import BookingList from './components/Customer/BookingList/BookingList';
 import OrderList from './components/Admin/OrderList/OrderList';
 import ManageService from './components/Admin/ManageService/ManageService';
 import Services from './components/Home/Services/Services';
-import SingleBlog from './components/Home/SingleBlog/SingleBlog';
 
 
 export const UserContext = createContext();
@@ -57,9 +56,6 @@ function App() {
           </Route>
           <Route path="/services">
             <Services></Services>
-          </Route>
-          <Route path="/singleBlog/:id">
-            <SingleBlog></SingleBlog>
           </Route>
         </Switch>
       </Router>

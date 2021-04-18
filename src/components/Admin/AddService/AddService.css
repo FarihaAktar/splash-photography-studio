@@ -1,7 +1,6 @@
 .service-section{    
     height: 100vh;
-    display: grid;
-    grid-template-columns: 20% 70%;
+    display: flex
 }
 .admin-ul{
     background-color: #222222;
@@ -26,6 +25,7 @@
 }
 .add-service-section{
     background-color: rgba(248, 247, 158, 0.698);
+    width: 100%;
 }
 .add-service-section h5{
     margin-left: 20px;
