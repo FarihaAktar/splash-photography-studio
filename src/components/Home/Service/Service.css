@@ -1,0 +1,57 @@
+.service{
+    position: relative;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+
+.service img{
+    width: 300px;
+    transition: all .90s ease-in;
+}
+.service:hover .service-img{
+    /* transform: scale(1.2, 1.2) ; */
+    animation-name: fadeInUp;
+    animation-duration: 1.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+
+}
+
+@keyframes fadeInUp {
+    from {transform: scale(1, 1) ;}
+    to {transform: scale(1.2, 1.2)}
+  }
+.service-detail{
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: -85px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    color: white;
+    left: 0;
+    z-index: 20;
+    transition: all 1s;
+    background: linear-gradient(to bottom, transparent 0, rgba(0, 0, 0, .01) 2%, rgba(0, 0, 0, .75) 90%)
+}
+.service:hover .service-detail{
+    transform: translate(0px, -75px);
+}
+.service-icon{
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.service-detail a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* media query */
+@media only screen and (max-width: 600px){
+    .service img{
+        width: 400px;
+    }
+}

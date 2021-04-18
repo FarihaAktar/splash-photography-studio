@@ -1,0 +1,33 @@
+.customer-ul{
+    width: 18%;
+    background-color: rgba(0, 0, 0, 0.876);
+    height: 100vh;
+    padding: 10px 50px;
+
+}
+
+.customer-ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.customer-ul li a{
+    text-decoration: none;
+    color: white;
+}
+.customer-ul li a:hover{
+    color: rgb(189, 189, 4);
+}
+.user{
+    color: greenyellow;
+    margin-top: 60px;
+}
+ /* media query */
+ @media only screen and (max-width: 600px){
+    .customer-ul{
+        width: 35%;
+        padding: 10px 20px;
+    }
+    .customer-ul li h3{
+        font-size: 15px;
+    }
+}

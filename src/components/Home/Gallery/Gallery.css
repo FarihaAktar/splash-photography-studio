@@ -1,0 +1,33 @@
+.gallery-section{
+    background-color: black;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+.gallery-section h2{
+    margin-bottom: 40px;
+}
+.gallery{
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 20px;
+}
+
+.gallery img{
+    width: 280px;
+}
+/* media query */
+@media only screen and (max-width: 600px){
+    .gallery{
+        width: 100%;
+        grid-template-columns: 100%;
+        padding: 10px;
+    }
+
+    .gallery img{
+        width: 100%;
+    }
+}

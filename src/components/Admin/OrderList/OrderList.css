@@ -1,0 +1,30 @@
+.non-admin{
+    text-align: center;
+
+}
+.order-list{
+    display: grid;
+    grid-template-columns: 20%  70%;
+}
+.table{
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.thead tr th{
+    color: rgb(189, 189, 4);
+    font-weight: bolder;
+    font-family: 'Noto Serif', serif;
+}
+td{
+    font-family: 'Noto Serif', serif;
+}
+
+/* media query */
+@media only screen and (max-width: 600px){
+    .admin-ul{
+        padding: 10px 5px;
+    }
+}

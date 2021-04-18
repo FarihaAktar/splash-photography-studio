@@ -1,0 +1,43 @@
+.review-section{
+    display: flex;
+}
+.add-review{
+    padding: 10px 30px;
+    width: 100%;
+    
+}
+.add-review h5, p{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.review-form{
+    padding: 20px;
+    background-color: rgb(189, 189, 4);
+    border-radius: 10px;
+    width: 85%;
+    margin: 0 auto;
+}
+.add-review-btn{
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: white;
+    margin-left: 85%;
+}
+
+ /* media query */
+ @media only screen and (max-width: 600px){
+     .add-review{
+        padding: 10px 10px;
+     }
+     .review-form{
+         width: 95%;
+         
+     }
+     .add-review-btn{
+         margin-left: 0;
+         padding: 7px 15px;
+     }
+ }

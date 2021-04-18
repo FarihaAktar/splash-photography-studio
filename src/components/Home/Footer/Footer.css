@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    padding: 70px 40px;
+    background-color: #222222;
+    color: white;
+    
+}
+
+.about{
+    /* border: 1px solid blue; */
+    width: 35%;
+    margin-right: 50px;
+}
+.about h4, .feature h4, .contact h4{
+   font-weight: bold;
+}
+.feature{
+    /* border: 1px solid blue; */
+    width: 30%;
+    margin-right: 40px;
+}
+.contact{
+    /* border: 1px solid blue; */
+    width: 35%;
+}
+
+.brand-icon{
+    margin-top: 20px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: rgb(189, 189, 4);
+}

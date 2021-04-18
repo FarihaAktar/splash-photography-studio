@@ -1,0 +1,40 @@
+.header-main{
+    height: 530px;
+    background-color: #ccc;
+    background-image: url('../../../images/cover.jpg');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    border: 25px solid black;
+
+}
+
+.header-main::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+}
+
+.header-text{
+    /* border: 1px solid red; */
+    margin-top: 200px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+}
+.header-text h1{
+    font-weight: bolder;
+    line-height: 60px;
+}
+.welcome{
+    font-weight: 300;
+}
+.header-text p{
+    font-weight: 300;
+}

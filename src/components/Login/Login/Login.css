@@ -1,0 +1,32 @@
+.social-media{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.911);
+    padding: 20px;
+    height: 100vh;
+}
+.social-icon-text{
+    text-align: center;
+    background-color: rgb(189, 189, 4);
+    padding:27px 10px;
+    width: 30%;
+    margin: 25px auto;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.social-icon{
+    font-size: 35px;
+    color: rgb(46, 46, 202);
+}
+.login{
+    margin-top: 100px;
+    color: #fff;
+}
+
+/* media query */
+@media only screen and (max-width: 600px){
+    .social-icon-text{
+        width: 80%;
+    }
+}

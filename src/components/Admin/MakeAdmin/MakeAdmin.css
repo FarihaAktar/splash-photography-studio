@@ -1,0 +1,24 @@
+.admin-form{
+    height: 200px;
+    padding: 30px;
+    margin: 30px 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+.input-text-admin{
+    width: 70%;
+    padding: 10px;
+    font-size: 15px;
+    color: gray;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.add-admin-btn{
+    background-color: rgb(189, 189, 4);
+    border: none;
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: white;
+    margin-left: 10px;
+}
