@@ -2,6 +2,8 @@
     display: flex;
     margin-top: 40px;
     text-align:justify;
+    width: 70%;
+    margin: 40px auto;
 }
 .review-img{
     margin-bottom: 40px;
@@ -20,5 +22,6 @@
 @media only screen and (max-width: 600px){
     .review{
         flex-direction: column;
+        width: 100%;
     }
 }

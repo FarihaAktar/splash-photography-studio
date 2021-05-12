@@ -15,22 +15,14 @@ const Services = () => {
     }, [])
     return (
         <div className='services-section'>
-            <>
-                {services.length ?
-                    <div>
-                        <h2 className='logo'>My Services</h2>
-                        <div className='services'>
-                            {
-                                services.map(service => <Service key={service._id} service={service}></Service>)
-                            }
-                        </div>
-                    </div>
-                    :
-                    <div id='loading-spinner'>
-                        <div className='loader'></div>
-                    </div>}
-
-            </>
+            <div className='container'>
+                <h2 className='logo'>My Services</h2>
+                <div className='services'>
+                    {
+                        services.map(service => <Service key={service._id} service={service}></Service>)
+                    }
+                </div>
+            </div>
         </div>
     );
 };

@@ -3,11 +3,9 @@
     padding: 70px 40px;
     background-color: #222222;
     color: white;
-    
 }
 
 .about{
-    /* border: 1px solid blue; */
     width: 35%;
     margin-right: 50px;
 }
@@ -15,12 +13,10 @@
    font-weight: bold;
 }
 .feature{
-    /* border: 1px solid blue; */
     width: 30%;
     margin-right: 40px;
 }
 .contact{
-    /* border: 1px solid blue; */
     width: 35%;
 }
 
@@ -29,4 +25,27 @@
     margin-right: 25px;
     font-size: 20px;
     color: rgb(189, 189, 4);
+}
+
+@media only screen and (max-width: 600px){
+    .footer{
+        flex-direction: column;
+    }
+    .about{
+        width: 100%;
+        margin-right: 0;
+    }
+    .about h4{
+        text-align: center;
+    }
+    .feature{
+        display: none;
+    }
+    
+    .contact{
+        width: 100%;
+        text-align: center;
+        margin-top: 35px;
+    }
+    
 }

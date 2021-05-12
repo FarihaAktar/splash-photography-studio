@@ -1,9 +1,7 @@
 .customer-ul{
     width: 18%;
     background-color: rgba(0, 0, 0, 0.876);
-    height: 100vh;
     padding: 10px 50px;
-
 }
 
 .customer-ul li{
@@ -25,7 +23,7 @@
  @media only screen and (max-width: 600px){
     .customer-ul{
         width: 35%;
-        padding: 10px 20px;
+        padding: 10px 0;
     }
     .customer-ul li h3{
         font-size: 15px;

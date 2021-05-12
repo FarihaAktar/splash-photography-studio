@@ -5,9 +5,12 @@
 .order-list{
     display: flex;
 }
+.orders{
+    width: 100%;
+}
 .table{
     margin-left: 20px;
-    margin-top: 20px;    
+    margin-top: 20px; 
 }
 
 .thead tr th{
@@ -24,4 +27,5 @@ td{
     .admin-ul{
         padding: 10px 5px;
     }
+
 }

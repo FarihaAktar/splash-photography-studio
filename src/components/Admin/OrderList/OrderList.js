@@ -30,7 +30,7 @@ const OrderList = () => {
                 :
                 <div className='order-list'>
                     <Sidebar></Sidebar>
-                    <div>
+                    <div className='orders'>
                         <h4 className='font brand-color'>Order List</h4>
                         <table className='table'>
                             <thead className='thead'>

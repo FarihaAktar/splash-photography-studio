@@ -1,5 +1,4 @@
 import React from 'react';
-import './Order.css'
 
 const Order = ({ order }) => {
 
@@ -23,6 +22,7 @@ const Order = ({ order }) => {
     }
 
 
+
     return (
         <>
             <tr>
@@ -32,7 +32,7 @@ const Order = ({ order }) => {
                 <td>Credit Card</td>
                 <td>
                     <form onChange={(e)=>handleStatus(e,order._id)}  >
-                        <select  id="status" name="status">
+                        <select id="status" name="status">
                             <option value="pending">Pending</option>
                             <option value="done">Done</option>
                             <option value="ongoing">On Going</option>

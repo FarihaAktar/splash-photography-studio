@@ -13,7 +13,7 @@
 
 
 .blog{
-    width: 350px;
+    width: 100%;
     margin-left: 60px;
     margin-top: 100px;
     color: gray;
@@ -57,5 +57,13 @@
 @media only screen and (max-width: 600px){
     .blog-posts{
         flex-direction: column;
+    }
+    .blog{
+        width: 100%;
+        margin-left: 0;
+    }
+    .blog-img img{
+        width: 300px;
+        
     }
 }

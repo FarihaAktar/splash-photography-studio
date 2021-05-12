@@ -8,7 +8,7 @@
     margin-bottom: 40px;
 }
 .gallery{
-    width: 90%;
+    width: 70%;
     margin: auto;
     background-color: black;
     display: grid;
@@ -17,7 +17,7 @@
 }
 
 .gallery img{
-    width: 280px;
+    width: 300px;
 }
 /* media query */
 @media only screen and (max-width: 600px){
@@ -29,5 +29,16 @@
 
     .gallery img{
         width: 100%;
+    }
+}
+
+@media only screen and (min-width: 2000px){
+    .gallery{
+        width: 60%;
+        grid-template-columns: repeat(3, 350px);
+        grid-gap: 60px;
+    }
+    .gallery img{
+        width: 350px;
     }
 }

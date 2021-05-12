@@ -13,7 +13,7 @@ const BlogPost = () => {
                 <h6 className='brand-color'>Read</h6>
                 <h2 className='logo'>News & Blog</h2>
             </div>
-            <div className='blog-posts'>
+            <div className='blog-posts container'>
                 <div className='blog'>
                     <div className='blog-img'>
                         <img src={post1} alt="" />

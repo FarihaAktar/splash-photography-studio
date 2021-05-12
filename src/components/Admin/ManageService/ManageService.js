@@ -15,7 +15,7 @@ const ManageService = () => {
     return (
         <div className='order-list'>
             <Sidebar></Sidebar>
-            <div>
+            <div className='orders'>
                 <h4 className='font brand-color'>Manage Services</h4>
                 <table className='table'>
                     <thead className='thead'>
