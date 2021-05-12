@@ -18,7 +18,7 @@ const Services = () => {
             <>
                 {services.length ?
                     <div>
-                        <h2 className='logo'>My Services hello</h2>
+                        <h2 className='logo'>My Services</h2>
                         <div className='services'>
                             {
                                 services.map(service => <Service key={service._id} service={service}></Service>)
